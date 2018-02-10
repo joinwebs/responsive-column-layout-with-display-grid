@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>12 column layout with css grid</title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <h1>12 column layout with css grid</h1>
+    <section class="content">
+        <div class="container">
+            <div class="grid grid-columns">
+                <div class="width-12/12 width-6/12@xs box">
+                    <p>fullwidth box</p>
+                </div>
+                <div class="width-11/12 width-6/12@xs box">
+                    <p>11 column</p>
+                </div>
+                <div class="width-1/12 width-12/12@xs width-1/12@xs box">
+                    <p>1 column</p>
+                </div>
+                <div class="width-10/12 width-12/12@xs width-6/12@sm box">
+                    <p>10 column</p>
+                </div>
+                <div class="width-2/12 width-12/12@xs box">
+                    <p>2 column</p>
+                </div>
+                <div class="width-9/12 width-12/12@xs box">
+                    <p>9 column</p>
+                </div>
+                <div class="width-3/12 width-12/12@xs box">
+                    <p>3 column</p>
+                </div>
+                <div class="width-8/12 width-12/12@xs box">
+                    <p>8 column</p>
+                </div>
+                <div class="width-4/12 width-12/12@xs box">
+                    <p>4 column</p>
+                </div>
+                <div class="width-7/12 width-12/12@xs box">
+                    <p>7 column</p>
+                </div>
+                <div class="width-5/12 width-12/12@xs box">
+                    <p>5 column</p>
+                </div>
+                <div class="width-6/12 width-12/12@xs box">
+                    <p>6 column</p>
+                </div>
+                <div class="width-6/12 width-12/12@xs box">
+                    <p>6 column</p>
+                </div>
+                <div class="width-5/12 width-12/12@xs box">
+                    <p>5 column</p>
+                </div>
+                <div class="width-7/12 width-12/12@xs box">
+                    <p>7 column</p>
+                </div>
+                <div class="width-4/12 width-12/12@xs box">
+                    <p>4 column</p>
+                </div>
+                <div class="width-4/12 width-12/12@xs box">
+                    <p>4 column</p>
+                </div>
+                <div class="width-4/12 width-12/12@xs box">
+                    <p>4 column</p>
+                </div>
+                <div class="width-3/12 width-12/12@xs box">
+                    <p>3 column</p>
+                </div>
+                <div class="width-9/12 width-12/12@xs box">
+                    <p>9 column</p>
+                </div>
+                <div class="width-2/12 width-12/12@xs box">
+                    <p>2 column</p>
+                </div>
+                <div class="width-10/12 width-12/12@xs box">
+                    <p>10 column</p>
+                </div>
+                <div class="width-1/12 width-12/12@xs box">
+                    <p>1 column</p>
+                </div>
+                <div class="width-11/12 box">
+                    <p>11 column</p>
+                </div>
+                <div class="width-12/12 box">
+                    <p>12 column</p>
+                </div>
+            </div>
+
+            <h2> Nested Grid </h2>
+            <div class="grid grid-columns">
+                <div class="width-6/12 width-12/12@xs box">
+                    <p>6 column Nested Grid</p>
+                    <div class="grid grid-columns">
+                        <div class="width-6/12 box">
+                            6 column nested
+                        </div>
+                        <div class="width-6/12 box">
+                            6 column nested
+                        </div>
+                    </div>
+                </div>
+                <div class="width-6/12 width-12/12@xs box">
+                    <p>6 column</p>
+                </div>
+            </div>
+            <h2> justify content start </h2>
+            <div class="grid justify-content-start">
+                <div class="box">
+                    <p>justify content start</p>
+                </div>
+            </div>
+            <h2> justify content end </h2>
+            <div class="grid justify-content-end">
+                <div class="box">
+                    <p>justify content end</p>
+                </div>
+            </div>
+            <h2> justify content end </h2>
+            <div class="grid justify-content-center">
+                <div class="box">
+                    <p>justify content center</p>
+                </div>
+            </div>
+            <h2> justify content space around </h2>
+            <div class="grid justify-content-around grid-2-col">
+                <div class="box">
+                    <p>justify content space around</p>
+                </div>
+                <div class="box">
+                    <p>justify content space around</p>
+                </div>
+            </div>
+            <h2> justify content space between </h2>
+            <div class="grid justify-content-between grid-2-col">
+                <div class="box">
+                    <p>justify content space between</p>
+                </div>
+                <div class="box">
+                    <p>justify content space between</p>
+                </div>
+            </div>
+            <h2> justify content space evenly </h2>
+            <div class="grid justify-content-evenly grid-2-col">
+                <div class="box">
+                    <p>justify content space evenly</p>
+                </div>
+                <div class="box">
+                    <p>justify content space evenly</p>
+                </div>
+            </div>
+
+            <h2> align content start</h2>
+            <div class="grid align-content-start grid-height-200 grid-2-col">
+                <div class="box">
+                    <p>align content start</p>
+                </div>
+                <div class="box">
+                    <p>align content start</p>
+                </div>
+            </div>
+            <h2> align content end</h2>
+            <div class="grid align-content-end grid-height-200 grid-2-col">
+                <div class="box">
+                    <p>align content end</p>
+                </div>
+                <div class="box">
+                    <p>align content end</p>
+                </div>
+            </div>
+            <h2> align content center</h2>
+            <div class="grid align-content-center grid-height-200 grid-2-col">
+                <div class="box">
+                    <p>align content center</p>
+                </div>
+                <div class="box">
+                    <p>align content center</p>
+                </div>
+            </div>
+            <h2> align content space around</h2>
+            <div class="grid align-content-around grid-height-200 grid-2-col">
+                <div class="box">
+                    <p>align content around</p>
+                </div>
+                <div class="box">
+                    <p>align content around</p>
+                </div>
+                <div class="box">
+                    <p>align content around</p>
+                </div>
+                <div class="box">
+                    <p>align content around</p>
+                </div>
+            </div>
+            <h2> align content space between</h2>
+            <div class="grid align-content-between grid-height-200 grid-2-col">
+                <div class="box">
+                    <p>align content between</p>
+                </div>
+                <div class="box">
+                    <p>align content between</p>
+                </div>
+                <div class="box">
+                    <p>align content between</p>
+                </div>
+                <div class="box">
+                    <p>align content between</p>
+                </div>
+            </div>
+            <h2> align content space evenly</h2>
+            <div class="grid align-content-evenly grid-height-200 grid-2-col">
+                <div class="box">
+                    <p>align content evenly</p>
+                </div>
+                <div class="box">
+                    <p>align content evenly</p>
+                </div>
+                <div class="box">
+                    <p>align content evenly</p>
+                </div>
+                <div class="box">
+                    <p>align content evenly</p>
+                </div>
+            </div>
+            <h2>justify items start</h2>
+            <div class="grid justify-item-start grid-2-col">
+                <div class="box">
+                    <p>justify items start</p>
+                </div>
+            </div>
+            <h2>justify items end</h2>
+            <div class="grid grid-columns justify-item-end grid-2-col">
+                <div class="box width-12/12 ">
+                    <p>justify items end</p>
+                </div>
+            </div>
+            <h2>justify items center</h2>
+            <div class="grid grid-columns justify-item-center grid-2-col">
+                <div class="box width-12/12 ">
+                    <p>justify items center</p>
+                </div>
+            </div>
+            <h2>justify items stretch</h2>
+            <div class="grid grid-columns justify-item-stretch grid-2-col">
+                <div class="box width-12/12 ">
+                    <p>justify items stretch</p>
+                </div>
+            </div>
+            <h2>align items start</h2>
+            <div class="grid grid-columns grid-height-200 align-items-start grid-2-col">
+                <div class="box width-12/12 ">
+                    <p>align items start</p>
+                </div>
+            </div>
+            <h2>align items end</h2>
+            <div class="grid grid-columns align-items-end" style="height: 200px;">
+                <div class="box width-6/12">
+                    <p>align items end</p>
+                </div>
+                <div class="box width-6/12">
+                    <p>align items end</p>
+                </div>
+            </div>
+            <h2>align items center</h2>
+            <div class="grid grid-columns align-items-center" style="height: 200px;">
+                <div class="box width-12/12 ">
+                    <p>align items center</p>
+                </div>
+            </div>
+            <h2>align items stretch</h2>
+            <div class="grid grid-columns align-items-stretch" style="height: 200px;">
+                <div class="box width-6/12 ">
+                    <p>align items stretch</p>
+                </div>
+                <div class="box width-6/12 ">
+                    <p>align items stretch</p>
+                </div>
+            </div>
+            <h2>justify self start</h2>
+            <div class="grid grid-columns">
+                <div class="box width-12/12 justify-self-start">
+                    <p>justify-self-start</p>
+                </div>
+            </div>
+            <h2>justify self end</h2>
+            <div class="grid grid-columns">
+                <div class="box width-12/12 justify-self-end">
+                    <p>justify-self-end</p>
+                </div>
+            </div>
+            <h2>justify self center</h2>
+            <div class="grid grid-columns">
+                <div class="box width-12/12 justify-self-center">
+                    <p>justify-self-center</p>
+                </div>
+            </div>
+            <h2>justify self stretch</h2>
+            <div class="grid grid-columns">
+                <div class="box width-12/12 justify-self-stretch">
+                    <p>justify-self-stretch</p>
+                </div>
+            </div>
+            <h2>align self start</h2>
+            <div class="grid grid-columns" style="height: 200px;">
+                <div class="box width-6/12 align-self-start">
+                    <p>align-self-start</p>
+                </div>
+            </div>
+            <h2>align self end</h2>
+            <div class="grid grid-columns" style="height: 200px;">
+                <div class="box width-6/12 align-self-end">
+                    <p>align-self-end</p>
+                </div>
+            </div>
+            <h2>align self center</h2>
+            <div class="grid grid-columns" style="height: 200px;">
+                <div class="box width-6/12 align-self-center">
+                    <p>align-self-center</p>
+                </div>
+            </div>
+            <h2>align self stretch</h2>
+            <div class="grid grid-columns" style="height: 200px;">
+                <div class="box width-6/12 align-self-stretch">
+                    <p>align-self-stretch</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="js/gris.js"></script>
+</body>
+</html>
