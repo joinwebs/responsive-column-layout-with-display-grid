@@ -12,13 +12,13 @@ Just add grid.css in your project
 
 Firs you have to create a div with grid class like this
 
-<code>
+<pre>
   <div class="grid grid-columns">
     <div class="width-12/12 width-6/12@sm width-10/12@md">
       12 Columns / 6 columns on small devices / 10 columns on medium device
     </div>
   </div> 
-</code>
+</pre>
 
 So inside grid you have to use column classes
 
