@@ -11,6 +11,7 @@ These Are classes
 Just add grid.css in your project
 
 Firs you have to create a div with grid class like this
+```html
 
 <pre>
   <div class="grid grid-columns">
@@ -19,6 +20,8 @@ Firs you have to create a div with grid class like this
     </div>
   </div> 
 </pre>
+```
+
 
 So inside grid you have to use column classes
 
