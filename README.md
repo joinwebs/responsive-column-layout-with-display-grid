@@ -212,6 +212,9 @@ So inside grid you have to use column classes
 <p>If you wish to read more about grid</p>
 
 Here are links
+
 http://learncssgrid.com/
+
 https://gridbyexample.com/
+
 https://markus.oberlehner.net/blog/building-a-good-old-12-column-css-grid-framework-with-css-grid-layout/
