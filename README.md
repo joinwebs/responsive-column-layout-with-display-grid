@@ -4,7 +4,7 @@ We are using latest display grid for responsive 12 columns layout. And we add al
 
 It will work like your bootstrap columns work and it will be completely reponsive.
 
-<img src="https://www.diigo.com/item/image/4vndp/cprv?size=o" alt="12 column layout with css grid">
+<img src="https://s3.amazonaws.com/diigo/8188435_439466075_33153680?AWSAccessKeyId=0R7FMW7AXRVCYMAPTPR2&Expires=1518427579&Signature=LnGPi0o%2BV2f0qVHZ8dV0O4yCSy0%3D" alt="12 column layout with css grid">
 
 These Are classes
 
