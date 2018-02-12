@@ -12,7 +12,9 @@ Just add grid.css in your project
 
 Firs you have to create a div with grid class like this
 
-<div class="grid grid-columns"></div>
+<pre>
+  <div class="grid grid-columns"></div> 
+</pre>
 
 So inside grid you have to use column classes
 
