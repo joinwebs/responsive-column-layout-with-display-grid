@@ -125,86 +125,86 @@ So inside grid you have to use column classes
 
 <h5>justify content classes</h5>
 <ul>
-    <li>.justify-content-normal</li>
-    <li>.justify-content-start</li>
-    <li>.justify-content-end</li>
-    <li>.justify-content-center</li>
-    <li>.justify-content-around</li>
-    <li>.justify-content-between</li>
-    <li>.justify-content-evenly</li>
-    <li><.justify-content-baseline</li>
-    <li>.justify-content-first-baseline</li>
-    <li>.justify-content-last-baseline</li>
+    <li>justify-content-normal</li>
+    <li>justify-content-start</li>
+    <li>justify-content-end</li>
+    <li>justify-content-center</li>
+    <li>justify-content-around</li>
+    <li>justify-content-between</li>
+    <li>justify-content-evenly</li>
+    <li>justify-content-baseline</li>
+    <li>justify-content-first-baseline</li>
+    <li>justify-content-last-baseline</li>
 </ul>
 
 
 <h5>align content</h5>
 <ul>
-    <li>.align-content-normal</li>
-    <li>.align-content-start</li>
-    <li>.align-content-start</li>
-    <li>.align-content-center</li>
-    <li>.align-content-around</li>
-    <li>.align-content-between</li>
-    <li>.align-content-evenly</li>
-    <li>.align-content-baseline</li>
-    <li>.align-content-first-baseline</li>
-    <li>.align-content-last-baseline</li>
+    <li>align-content-normal</li>
+    <li>align-content-start</li>
+    <li>align-content-start</li>
+    <li>align-content-center</li>
+    <li>align-content-around</li>
+    <li>align-content-between</li>
+    <li>align-content-evenly</li>
+    <li>align-content-baseline</li>
+    <li>align-content-first-baseline</li>
+    <li>align-content-last-baseline</li>
 </ul>
 
 
 <h5>justify items</h5>
 <ul>
-    <li>.justify-item-auto</li>
-    <li>.justify-item-normal</li>
-    <li>.justify-item-start</li>
-    <li>.justify-item-center</li>
-    <li>.justify-item-end</li>
-    <li>.justify-item-stretch</li>
-    <li>.justify-item-baseline</li>
-    <li>.justify-item-first-baseline</li>
-    <li>.justify-item-last-baseline</li>
+    <li>justify-item-auto</li>
+    <li>justify-item-normal</li>
+    <li>justify-item-start</li>
+    <li>justify-item-center</li>
+    <li>justify-item-end</li>
+    <li>justify-item-stretch</li>
+    <li>justify-item-baseline</li>
+    <li>justify-item-first-baseline</li>
+    <li>justify-item-last-baseline</li>
 </ul>
 
 
 <h5>align items</h5>
 <ul>
-    <li>.align-items-auto</li>
-    <li>.align-items-normal</li>
-    <li>.align-items-start</li>
-    <li>.align-items-center</li>
-    <li>.align-items-end</li>
-    <li>.align-items-stretch</li>
-    <li>.align-items-baseline</li>
-    <li>.align-items-first-baseline</li>
-    <li>.align-items-last-baseline</li>
+    <li>align-items-auto</li>
+    <li>align-items-normal</li>
+    <li>align-items-start</li>
+    <li>align-items-center</li>
+    <li>align-items-end</li>
+    <li>align-items-stretch</li>
+    <li>align-items-baseline</li>
+    <li>align-items-first-baseline</li>
+    <li>align-items-last-baseline</li>
 </ul>
 
 <h5>justify self</h5>
 <ul>
-    <li>.justify-self-auto</li>
-    <li>.justify-self-normal</li>
-    <li>.justify-self-start</li>
-    <li>.justify-self-end</li>
-    <li>.justify-self-center</li>
-    <li>.justify-self-stretch</li>
-    <li>.justify-self-baseline</li>
-    <li>.justify-self-first-baseline</li>
-    <li>.justify-self-last-baseline</li>
+    <li>justify-self-auto</li>
+    <li>justify-self-normal</li>
+    <li>justify-self-start</li>
+    <li>justify-self-end</li>
+    <li>justify-self-center</li>
+    <li>justify-self-stretch</li>
+    <li>justify-self-baseline</li>
+    <li>justify-self-first-baseline</li>
+    <li>justify-self-last-baseline</li>
 </ul>
 
 
 <h5>align self</h5>
 <ul>
-    <li>.align-self-auto</li>
-    <li>.align-self-normal</li>
-    <li>.align-self-start</li>
-    <li>.align-self-center</li>
-    <li>.align-self-end</li>
-    <li>.align-self-stretch</li>
-    <li>.align-self-baseline</li>
-    <li>.align-self-first-baseline</li>
-    <li>.align-self-last-baseline</li>
+    <li>align-self-auto</li>
+    <li>align-self-normal</li>
+    <li>align-self-start</li>
+    <li>align-self-center</li>
+    <li>align-self-end</li>
+    <li>align-self-stretch</li>
+    <li>align-self-baseline</li>
+    <li>align-self-first-baseline</li>
+    <li>align-self-last-baseline</li>
 </ul>
 
 
