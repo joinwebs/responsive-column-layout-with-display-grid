@@ -14,18 +14,4 @@ Firs you have to create a div with grid class like this
 So inside grid you have to use column classes
 
 # Here are column classes
-width-1/12,
-
-width-2/12,
-
-width-3/12,
-
-width-4/12
-width-5/12
-width-6/12
-width-7/12
-width-8/12
-width-9/12
-width-10/12
-width-11/12
-width-12/12
+width-1/12, width-2/12, width-3/12, width-4/12, width-5/12, width-6/12, width-7/12, width-8/12, width-9/12, width-10/12, width-11/12, width-12/12
