@@ -54,3 +54,25 @@ width-1/12@md, width-2/12@md, width-3/12@md, width-4/12@md, width-5/12@md, width
 
 # Desktop Screen classes
 width-1/12@lg, width-2/12@lg, width-3/12@lg, width-4/12@lg, width-5/12@lg, width-6/12@lg, width-7/12@lg, width-8/12@lg, width-9/12@lg, width-10/12@lg, width-11/12@lg, width-12/12@lg
+
+
+# Grid Helper Classes
+
+## justify content classes
+.justify-content-normal, .justify-content-start, .justify-content-end, .justify-content-center, .justify-content-around, .justify-content-between, .justify-content-evenly, .justify-content-baseline, .justify-content-first-baseline, .justify-content-last-baseline
+
+## align content
+
+.align-content-normal, .align-content-start, .align-content-start, .align-content-center, .align-content-around, .align-content-between, .align-content-evenly, .align-content-baseline, .align-content-first-baseline, .align-content-last-baseline
+
+## justify items
+.justify-item-auto, .justify-item-normal, .justify-item-start, .justify-item-center, .justify-item-end, .justify-item-stretch, .justify-item-baseline, .justify-item-first-baseline, .justify-item-last-baseline
+
+## align items
+.align-items-auto, .align-items-normal, .align-items-start, .align-items-center, .align-items-end, .align-items-stretch, .align-items-baseline, .align-items-first-baseline, .align-items-last-baseline
+
+## justify self
+.justify-self-auto, .justify-self-normal, .justify-self-start, .justify-self-end, .justify-self-center, .justify-self-stretch, .justify-self-baseline, .justify-self-first-baseline, .justify-self-last-baseline
+
+## align self
+.align-self-auto, .align-self-normal, .align-self-start, .align-self-center, .align-self-end, .align-self-stretch, .align-self-baseline, .align-self-first-baseline, .align-self-last-baseline
