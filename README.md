@@ -8,7 +8,10 @@ It will work like your bootstrap columns work and it will be completely reponsiv
 These Are classes
 
 # How to Start
+Just add grid.css in your project
+
 Firs you have to create a div with grid class like this
+
 <div class="grid grid-columns"></div>
 
 So inside grid you have to use column classes
