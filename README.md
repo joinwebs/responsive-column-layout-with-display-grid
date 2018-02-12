@@ -4,6 +4,8 @@ We are using latest display grid for responsive 12 columns layout. And we add al
 
 It will work like your bootstrap columns work and it will be completely reponsive.
 
+<img src="https://www.diigo.com/item/image/4vndp/cprv?size=o" alt="12 column layout with css grid">
+
 These Are classes
 
 # How to Start
@@ -207,3 +209,9 @@ So inside grid you have to use column classes
 </ul>
 
 
+<p>If you wish to read more about grid</p>
+
+Here are links
+http://learncssgrid.com/
+https://gridbyexample.com/
+https://markus.oberlehner.net/blog/building-a-good-old-12-column-css-grid-framework-with-css-grid-layout/
